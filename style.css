@@ -1,0 +1,85 @@
+/*FONCTIONS STRUCTURANTES*/
+html,body
+{font-family: Raleway,'serif','sans-serif'; background-color: #F2F2F2;}
+.flexcentre
+{display:flex; justify-content: center; align-items: center;}
+.flexautour
+{display: flex; justify-content: space-around; align-items: center;}
+.flexentre
+{display: flex; justify-content: space-between; align-items: center;}
+/*FIN FONCTIONS STRUCTURANTES*/
+
+/*HEADER*/
+.margedulogo
+{margin-bottom: 10px; margin-left:50px}
+.taillenav
+{height: 100px;}
+.taillelien
+{width: 45%;}
+.traitdudessus
+{width: 140px; height: 99px;}
+.bougepas
+{margin-left:300px;}
+.couleurlien
+{color: #0065FC;}
+.fuckladeco
+{text-decoration: none;}
+.bordurenav:hover
+{border-top: 2px solid #0065FC;}
+.grostexte
+{font-weight: bold; margin-left: 45px;}
+.petittexte
+{color: gray; margin-left:45px;}
+.barrederecherche
+{width:400px; border-radius: 10px; border: 0.5px solid #F2F2F2;}
+.tailleicone
+{height:50px; width:50px;background-color: #DEEBFF; border-radius: 10px 0px 0px 10px;}
+.labarre
+{height: 50px; width:230px; font-size: 18px; color: black; font-weight: bold;}
+.fucklabordure
+{border:none;}
+.textebarre
+{padding-left:20px;}
+.bouton
+{background-color: #0065FC; color: white; font-weight: bold; cursor: pointer; height: 50px; width: 120px; border-radius: 0px 10px 10px 0px;}
+.alignement
+{margin-left:50px;}
+.naissance
+{display: flex; flex-direction: row; justify-content: space-around; margin-top: 35px; width:1000px;}
+.bordurefiltre
+{border:1px solid gray; border-radius: 70px 70px 70px 70px; width:auto; height:40px;}
+.ajustement
+{margin-left:20px; margin-top:10px; font-weight: bold; }
+.iconefiltre
+{display: flex; justify-content: flex-start; color:#0065FC;}
+.fondfiltre
+{background-color: #DEEBFF; border:1px solid gray; border-radius: 25px; height: 40px ; width:40px ; padding-left:5px}
+.critere
+{color:black; font-weight: bold; padding-left: 10px; cursor:pointer; padding-right: 10px; justify-content: baseline;}
+.centrageicone
+{display: flex; justify-content: space-around; margin-top:13px; margin-left:8px;}
+.info
+{color:gray; padding-left:20px;}
+.infobulle
+{display: flex; flex-direction: row; margin-top:30px; margin-left:30px; justify-content: flex-start; width:1200px}
+.bubulle
+{padding-top: 17px; padding-left: 18px; color:#0065FC;}
+/*FIN DU HEADER*/
+
+/*MAIN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FIN DU MAIN*/
+
+
