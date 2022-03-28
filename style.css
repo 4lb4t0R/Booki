@@ -68,7 +68,11 @@ html,body
 
 /*MAIN*/
 
+.centre
+{display: flex; background-color: #DEEBFF; width:920px; height:700px; margin-left: 40px; margin-top: 30px;border-radius: 40px 40px 40px 40px;}
 
+.titrecentre
+{margin-left: 40px; margin-top: 50px;}
 
 
 
