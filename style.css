@@ -74,8 +74,11 @@ html,body
 .titrecentre
 {margin-left: 40px; margin-top: 50px;}
 
+.vitrine
+{display: flex; flex-direction: row; justify-content: space-around; align-items:center;}
 
-
+.produit
+{width:250px ; height:150px ; border-radius:20px 20px 20px 20px ; background-color: #F2F2F2;}
 
 
 
