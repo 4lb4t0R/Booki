@@ -68,19 +68,14 @@ html,body
 
 /*MAIN*/
 
-.centre
-{display: flex; background-color:#DEEBFF; width:920px; height:700px; margin-left: 40px; margin-top: 30px;border-radius: 40px 40px 40px 40px;}
-
-.titrecentre
-{margin-left: 40px; margin-top: 50px;}
-
 .vitrine
-{display: flex; flex-direction: row; justify-content: space-around; align-items:center;}
+{display: flex; background-color: #DEEBFF; height: fit-content; border-radius: 15px; margin-left: 60px; margin-top: 30px; width: 70%;}
+
+.presentoir
+{background-color: #F2F2F2; border: 4px solid #F2F2F2; height:250px; width:210px; border-radius: 15px; box-shadow: 3px solid black;}
 
 .produit
-{width:250px ; height:150px ; border-radius:20px 20px 20px 20px ; background-color: #F2F2F2;}
-
-
+{height : 150px; width : 200px;object-fit: contain; margin-left: 2%; border-radius: 25px; }
 
 
 
