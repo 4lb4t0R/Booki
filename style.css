@@ -20,14 +20,11 @@ html,body
 {display: flex; justify-content: space-around; align-items:center; margin-top: 30px; position: static;}
 .boutondudebut
 {border:none;color:#0065FC;text-decoration: none; text-align: center; background-color: white;}
-
-
-
-
 .grostexte
-{font-weight: bold; margin-left: 45px;}
+{font-weight: bold; margin-left: 45px; margin-top:30px;}
 .petittexte
-{color: gray; margin-left:45px;}
+{margin-left:45px; margin-top:10px;}
+
 .barrederecherche
 {width:300px; border-radius: 10px; border: 0.5px solid #F2F2F2;}
 .tailleicone
