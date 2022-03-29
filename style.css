@@ -8,22 +8,16 @@ html,body
 .flexautour
 {display: flex; justify-content: space-around; align-items: center;}
 .flexentre
-{display: flex; justify-content: space-between; align-items: center;}
+{display: flex; justify-content: space-around; align-items: center;}
 /*FIN FONCTIONS STRUCTURANTES*/
 
 /*HEADER*/
 .logo
 {display: flex; justify-content: center; align-items: center; margin-top:30px;}
-.taillelien
-{width: 45%;}
 .bordurebouton:hover
-{width: 140px; height: 30px;border-bottom: 2px solid #0065FC;}
-.couleurlien
-{color: #0065FC;}
-.fuckladeco
-{text-decoration: none;}
+{width: 140px; height: 30px;border-bottom: 4px solid #0065FC;}
 .posbouton
-{display: flex; justify-content: space-around; align-items:center; margin-top: 30px;}
+{display: flex; justify-content: space-around; align-items:center; margin-top: 30px; position: static;}
 .boutondudebut
 {border:none;color:#0065FC;text-decoration: none; text-align: center; background-color: white;}
 
