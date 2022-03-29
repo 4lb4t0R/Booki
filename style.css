@@ -1,9 +1,8 @@
 /*FONCTIONS STRUCTURANTES*/
 *
 {margin:0px ; padding:0px;}
-
 html,body
-{font-family: Raleway,'serif','sans-serif'; background-color: #F2F2F2;}
+{font-family: Raleway,'serif','sans-serif';}
 .flexcentre
 {display:flex; justify-content: center; align-items: center;}
 .flexautour
@@ -25,6 +24,10 @@ html,body
 {text-decoration: none;}
 .posbouton
 {display: flex; justify-content: space-around; align-items:center; margin-top: 30px;}
+.boutondudebut
+{border:none;color:#0065FC;text-decoration: none; text-align: center; background-color: white;}
+
+
 
 
 .grostexte
@@ -32,9 +35,9 @@ html,body
 .petittexte
 {color: gray; margin-left:45px;}
 .barrederecherche
-{width:400px; border-radius: 10px; border: 0.5px solid #F2F2F2;}
+{width:300px; border-radius: 10px; border: 0.5px solid #F2F2F2;}
 .tailleicone
-{height:50px; width:50px;background-color: #DEEBFF; border-radius: 10px 0px 0px 10px;}
+{height:50px; width:50px;background-color: #F2F2F2; border-radius: 10px 0px 0px 10px;}
 .labarre
 {height: 50px; width:230px; font-size: 18px; color: black; font-weight: bold;}
 .fucklabordure
@@ -73,7 +76,7 @@ h3
 {margin-left: 30px;}
 
 .vitrine
-{display: flex; background-color: #DEEBFF; height: fit-content; border-radius: 15px; margin-left: 60px; margin-top: 30px; width: 70%;}
+{display: flex; background-color: #F2F2F2; height: fit-content; border-radius: 15px; margin-left: 60px; margin-top: 30px; width:fit-content;}
 
 .presentoir
 {display:flex; align-items:center;background-color:  #F2F2F2; border: 4px solid #F2F2F2; height:250px; width:210px; border-radius: 15px; padding:13px;}
