@@ -27,15 +27,15 @@ html,body
 .barrederecherche
 {width:300px; border-radius: 20px; border: 0.5px solid #F2F2F2; margin-top:30px;}
 .tailleicone
-{height:40px; width:60px; background-color: #F2F2F2; border-radius: 10px 0px 0px 10px;}
+{height:40px; width:80px; background-color: #F2F2F2; border-radius: 10px 0px 0px 10px;}
 .labarre
-{height: 50px; width:230px; font-size: 18px; color: black; font-weight: bold;}
+{height: 50px; width:250px; font-size: 18px; color: black; font-weight: bold;}
 .fucklabordure
 {border:none;}
 .textebarre
 {padding-left:20px;}
 .bouton
-{background-color: #0065FC; color: white; font-weight: bold; cursor: pointer; height: 40px; width: 60px; border-radius: 15px;}
+{background-color: #0065FC; color: white; font-weight: bold; cursor: pointer; height: 40px; width: 80px; border-radius: 15px;}
 .alignement
 {margin-left:40px;}
 
@@ -44,15 +44,15 @@ html,body
 .ajustement
 {margin-left:50px; margin-top:15px; font-weight: bold;}
 .naissance
-{display: flex; flex-direction: row; justify-content: space-between; align-items:center; margin-top: 35px; width:fit-content; flex-wrap: wrap;}
+{display: flex; flex-direction: row; justify-content: space-around; align-items:center; margin-top: 35px; width:fit-content; flex-wrap: wrap;}
 .bordurefiltre
 {border:1px solid gray; border-radius: 70px 70px 70px 70px; width:auto; height:40px;}
 .iconefiltre
-{display: flex; justify-content: flex-start; color:#0065FC;}
+{display: flex; justify-content:center; color:#0065FC;}
 .fondfiltre
 {background-color: #DEEBFF; border:1px solid gray; border-radius: 25px; height: 40px ; width:40px ; padding-left:5px}
 .critere
-{color:black; font-weight: bold; padding-left: 10px; cursor:pointer; padding-right: 10px; justify-content: baseline;}
+{color:black; font-weight: bold; padding-left: 10px; cursor:pointer; padding-right: 10px; padding-top: 10px; align-items: center;}
 .centrageicone
 {display: flex; justify-content:center; align-items: center;}
 
