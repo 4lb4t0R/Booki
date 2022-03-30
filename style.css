@@ -3,6 +3,12 @@
 {margin:0px ; padding:0px;}
 html,body
 {font-family: Raleway,'serif','sans-serif';}
+.flexentre
+{display:flex; justify-content: space-between; align-items: center;}
+.flexautour
+{display: flex; justify-content: space-around; align-items: center;}
+.flexcentre
+{display: flex; justify-content: center; align-items: center;}
 /*FIN FONCTIONS STRUCTURANTES*/
 
 /*HEADER*/
