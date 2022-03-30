@@ -43,9 +43,11 @@ html,body
 
 /*FIN DU HEADER*/
 
-
+.renaissance
+{display: flex; flex-direction:column; justify-content: space-around;  width:fit-content; flex-wrap: wrap;}
 .naissance
 {display: flex; flex-direction: row; justify-content: space-around; align-items:center; margin-top: 35px; width:fit-content; flex-wrap: wrap;}
+
 .bordurefiltre
 {border:1px solid gray; border-radius: 70px 70px 70px 70px; width:auto; height:40px;}
 .iconefiltre
