@@ -3,12 +3,6 @@
 {margin:0px ; padding:0px;}
 html,body
 {font-family: Raleway,'serif','sans-serif';}
-.flexcentre
-{display:flex; justify-content: center; align-items: center;}
-.flexautour
-{display: flex; justify-content: space-around; align-items: center;}
-.flexentre
-{display: flex; justify-content: space-around; align-items: center;}
 /*FIN FONCTIONS STRUCTURANTES*/
 
 /*HEADER*/
@@ -40,14 +34,10 @@ html,body
 {margin-left:40px;}
 .ajustement
 {margin-left:50px; margin-top:15px; font-weight: bold;}
-
-/*FIN DU HEADER*/
-
 .renaissance
-{display: flex; flex-direction:column; justify-content: space-between; flex-wrap: wrap; margin-left: 20px; padding-top: 20px; width:fit-content;}
+{display: flex; flex-direction:column; justify-content: space-between; flex-wrap: wrap; margin-left: 40px; padding-top: 20px; width:fit-content;}
 .naissance
 {display: flex; flex-direction:row; justify-content:space-around; margin-top: 15px; flex-wrap: wrap; margin-left: 20px; width:auto;}
-
 .bordurefiltre
 {border:1px solid gray; border-radius: 70px 70px 70px 70px; width:auto; height:40px;}
 .iconefiltre
@@ -58,14 +48,13 @@ html,body
 {color:black; font-weight: bold; padding-left: 10px; cursor:pointer; padding-right: 10px; padding-top: 5px; align-items: center;}
 .centrageicone
 {display: flex; justify-content:center; align-items: center;}
-
 .info
-{color:gray; padding-left:20px;}
+{color:gray; padding-left:10px;}
 .infobulle
-{display: flex; flex-direction: row; margin-top:30px; margin-left:30px; justify-content: flex-start; width:1200px}
+{display: flex; flex-direction: row; margin-top:20px; margin-left:30px; justify-content: flex-start; width:1200px}
 .bubulle
-{padding-top: 17px; padding-left: 18px; color:#0065FC;}
-
+{padding-top: 2px; padding-left: 18px; color:#0065FC;}
+/*FIN DU HEADER*/
 
 /*MAIN*/
 
