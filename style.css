@@ -65,22 +65,28 @@ html,body
 /*MAIN*/
 
 .populaire
-{margin-left: 20px; margin-top:30px; margin-bottom: 20px;}
+{font-weight: bold;}
+
+.yo
+{display: flex; justify-content: space-around; align-items: center;}
 
 .vitrine
-{display: flex; flex-direction: column ;background-color: #F2F2F2; height: auto; border-radius: 15px; margin-left: 40px; margin-top: 30px; width:auto;}
+{display: flex; flex-direction: column ;background-color: #F2F2F2; height: auto; border-radius: 15px; margin-top: 30px; width:auto;}
 
 .presentoir
-{display:flex; justify-content: center ; align-items:center; background-color: white; border: 4px solid #F2F2F2; height:200px; width:210px; border-radius: 15px; padding:13px;}
+{display: flex; flex-direction:column; justify-content: center; align-items: center; background-color: white; border: 4px solid #F2F2F2; height:fit-content; width:fit-content; border-radius: 15px; padding:13px;}
 
 .produit
-{height : 150px; width : 200px; object-fit: contain; margin-left: 2%; border-radius: 25px; }
+{height : 150px; width : 200px; object-fit: contain; margin-left: 2%; border-radius: 25px;}
 
 .posproduit
 {display: flex; align-items: center; justify-content: space-around;}
 
 .posphoto
 {display:flex; justify-content: center ; align-items:center; flex-direction: column;}
+
+
+
 
 /*FIN DU MAIN*/
 
