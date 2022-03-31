@@ -69,20 +69,19 @@ html,body
 {display: flex; flex-direction:column ;background-color: #F2F2F2; height: auto; border-radius: 15px; margin-top: 30px; width:auto;}
 .yo
 {display: flex; justify-content: space-around; align-items: center;}
+.produit
+{height: 100px; width: 150px; border-radius: 15px 0px 0px 15px;}
+.posproduit
+{display: flex; align-items:center; justify-content: flex-start;}
 
 /*FIN DU MAIN*/
 
 .presentoir
-{display: flex; flex-direction:column; margin-left: 15px; align-items: center; background-color: white; border: 4px solid #F2F2F2; height:90px; width:300px; border-radius: 15px; padding:13px;}
+{display: flex; flex-direction:column; margin-left: 15px; background-color: white; border: 4px solid #F2F2F2; height:80px; width:300px; border-radius: 15px; padding:13px;}
 
-.produit
-{height : 125px; width : 150px; object-fit: contain; border-radius: 15px 0px 0px 15px;}
-
-.posproduit
-{display: flex; align-items:center; justify-content: flex-start;}
 
 .posphoto
-{display:flex; justify-content:center ; align-items:flex-start; flex-direction: column;}
+{display:flex; justify-content:center ; align-items:flex-start;}
 
 
 
