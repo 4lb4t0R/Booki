@@ -107,6 +107,19 @@ span
 /*MEDIA QUERIES*/
 
 
+/*POUR TABLETTE*/
+@media screen and (min-width:768px)
+{}
+
+/*FIN DES TABLETTES*/
+
+
+/*POUR PC*/
+@media screen and (min-width:992px)
+{}
+
+/*FIN DES PC*/
+
 
 
 
