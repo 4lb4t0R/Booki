@@ -192,7 +192,14 @@ body {
 }
 .produit {
 	height: 100px;
-	width: 150px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 15px 0px 0px 15px;
+}
+.produitcapricieux {
+	height: 100px;
+	width: 160px;
+	object-fit: cover;
 	border-radius: 15px 0px 0px 15px;
 }
 .posproduit {
