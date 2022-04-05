@@ -1,131 +1,303 @@
 /*FONCTIONS STRUCTURANTES*/
-*
-{margin:0px ; padding:0px;}
-html,body
-{font-family: Raleway,'serif','sans-serif';}
-.flexentre
-{display:flex; justify-content: space-between; align-items: center;}
-.flexautour
-{display: flex; justify-content: space-around; align-items: center;}
-.flexcentre
-{display: flex; justify-content: center; align-items: center;}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body {
+	font-family: Raleway, "serif", "sans-serif";
+}
+
+.flexentre {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flexautour {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flexcentre {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /*FIN FONCTIONS STRUCTURANTES*/
 
 /*HEADER*/
-.logo
-{display: flex; justify-content: center; align-items: center; margin-top:30px;}
-.bordurebouton:hover
-{width: 140px; height: 30px;border-bottom: 4px solid #0065FC;}
-.posbouton
-{display: flex; justify-content: space-around; align-items:center; margin-top: 30px; position: static;}
-.boutondudebut
-{border:none;color:#0065FC;text-decoration: none; text-align: center; background-color: white;}
-.grostexte
-{font-weight: bold; margin-left: 45px; margin-top:30px;}
-.petittexte
-{margin-left:45px; margin-top:10px;}
-.barrederecherche
-{width:300px; border-radius: 20px; border: 0.5px solid #F2F2F2; margin-top:30px;}
-.tailleicone
-{height:40px; width:80px; background-color: #F2F2F2; border-radius: 10px 0px 0px 10px;}
-.labarre
-{height: 40px; width:200px; font-size: 18px; color: black; font-weight: bold;}
-.fucklabordure
-{border:none;}
-.textebarre
-{padding-left:20px;}
-.bouton
-{background-color: #0065FC; color: white; font-weight: bold; cursor: pointer; height: 40px; width: 80px; border-radius: 15px;}
-.alignement
-{margin-left:40px;}
-.ajustement
-{margin-left:50px; margin-top:15px; font-weight: bold;}
-.renaissance
-{display: flex; flex-direction:column; justify-content: space-between; flex-wrap: wrap; margin-left: 40px; padding-top: 20px; width:fit-content;}
-.naissance
-{display: flex; flex-direction:row; justify-content:space-around; margin-top: 15px; flex-wrap: wrap; margin-left: 20px; width:auto;}
-.bordurefiltre
-{border:1px solid gray; border-radius: 70px 70px 70px 70px; width:auto; height:40px;}
-.iconefiltre
-{display:flex; align-items:center; color:#0065FC;}
-.fondfiltre
-{background-color: #DEEBFF; border:1px solid transparent; border-radius: 25px; height: 40px ; width:40px ;}
-.critere
-{color:black; font-weight: bold; padding-left: 10px; cursor:pointer; padding-right: 10px; padding-top: 5px; align-items: center;}
-.centrageicone
-{display: flex; justify-content:center; align-items: center;}
-.info
-{color:gray; padding-left:10px;}
-.infobulle
-{display: flex; flex-direction: row; margin-top:20px; margin-left:30px; justify-content: flex-start; width:1200px}
-.bubulle
-{padding-top: 2px; padding-left: 18px; color:#0065FC;}
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bordurebouton:hover {
+	width: 140px;
+	height: 30px;
+	border-bottom: 4px solid #0065fc;
+}
+.posbouton {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+	position: static;
+}
+.boutondudebut {
+	border: none;
+	color: #0065fc;
+	text-decoration: none;
+	text-align: center;
+	background-color: white;
+}
+.grostexte {
+	font-weight: bold;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.petittexte {
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.barrederecherche {
+	width: 300px;
+	border-radius: 20px;
+	border: 0.5px solid #f2f2f2;
+	margin-top: 30px;
+}
+.tailleicone {
+	height: 40px;
+	width: 80px;
+	background-color: #f2f2f2;
+	border-radius: 10px 0px 0px 10px;
+}
+.labarre {
+	height: 40px;
+	width: 200px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.fucklabordure {
+	border: none;
+}
+.textebarre {
+	padding-left: 20px;
+}
+.bouton {
+	background-color: #0065fc;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	height: 40px;
+	width: 80px;
+	border-radius: 15px;
+}
+.alignement {
+	margin-left: 40px;
+}
+.ajustement {
+	margin-left: 50px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.renaissance {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left: 40px;
+	padding-top: 20px;
+	width: fit-content;
+}
+.naissance {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 15px;
+	flex-wrap: wrap;
+	margin-left: 20px;
+	width: auto;
+}
+.bordurefiltre {
+	border: 1px solid gray;
+	border-radius: 70px 70px 70px 70px;
+	width: auto;
+	height: 40px;
+}
+.iconefiltre {
+	display: flex;
+	align-items: center;
+	color: #0065fc;
+}
+.fondfiltre {
+	background-color: #deebff;
+	border: 1px solid transparent;
+	border-radius: 25px;
+	height: 40px;
+	width: 40px;
+}
+.critere {
+	color: black;
+	font-weight: bold;
+	padding-left: 10px;
+	cursor: pointer;
+	padding-right: 10px;
+	padding-top: 5px;
+	align-items: center;
+}
+.centrageicone {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info {
+	color: gray;
+	padding-left: 10px;
+}
+.infobulle {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-left: 30px;
+	justify-content: flex-start;
+	
+}
+.bubulle {
+	padding-top: 2px;
+	padding-left: 18px;
+	color: #0065fc;
+}
 /*FIN DU HEADER*/
 
 /*MAIN*/
-.populaire
-{font-weight: bold; margin-top:25px; margin-bottom:15px;}
-.vitrine
-{display: flex; flex-direction:column ;background-color: #F2F2F2; height: auto; border-radius: 15px; margin-top: 30px; width:auto;}
-.yo
-{display: flex; justify-content: space-around; align-items: center;}
-.produit
-{height: 100px; width: 150px; border-radius: 15px 0px 0px 15px;}
-.posproduit
-{align-items:center;}
-.presentoir
-{display: flex; flex-direction:row; margin-left: 15px; background-color: white; border: 4px solid #F2F2F2; height:80px; width:300px; border-radius: 20px; padding-left:3px; padding-top:13px; padding-bottom:13px;}
-.texte
-{margin-left: 20px; margin-bottom: 10px; padding-top:20px}
-span
-{font-weight: lighter;}
-.note 
-{align-items:flex-end;}
-.etoilebleue
-{color: #0065FC;}
-.etoilegrise
-{color:gray}
-.vitrinebis
-{display:flex; flex-direction:column ; background-color: white; height: auto; border-radius: 15px; margin-top: 30px; width:auto;}
-.presentoirbis
-{display:flex; flex-direction:column; border: 4px solid white; margin-left:15px; background-color: white; height:fit-content; width:fit-content; border-radius:20px; padding-left:3px; box-shadow: 2px 2px 10px #F2F2F2; margin-bottom: 15px;}
-.textebis
-{text-align:left; margin-bottom:10px; padding-top:10px; padding-left:15px;}
-.produitbis 
-{height: 100px; width: 270px; border-radius: 15px 15px 0px 0px;}
-.populairebis
-{font-weight: bold; margin-top:25px; padding-left: 20px; margin-bottom:15px;}
+.populaire {
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.vitrine {
+	display: flex;
+	flex-direction: column;
+	background-color: #f2f2f2;
+	height: auto;
+	border-radius: 15px;
+	margin-top: 30px;
+	width: auto;
+}
+.yo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.produit {
+	height: 100px;
+	width: 150px;
+	border-radius: 15px 0px 0px 15px;
+}
+.posproduit {
+	align-items: center;
+}
+.presentoir {
+	display: flex;
+	flex-direction: row;
+	margin-left: 15px;
+	background-color: white;
+	border: 4px solid #f2f2f2;
+	height: 80px;
+	width: 300px;
+	border-radius: 20px;
+	padding-left: 3px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.texte {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+span {
+	font-weight: lighter;
+}
+.note {
+	align-items: flex-end;
+}
+.etoilebleue {
+	color: #0065fc;
+}
+.etoilegrise {
+	color: gray;
+}
+.vitrinebis {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	height: auto;
+	border-radius: 15px;
+	margin-top: 30px;
+	width: auto;
+}
+.presentoirbis {
+	display: flex;
+	flex-direction: column;
+	border: 4px solid white;
+	margin-left: 15px;
+	background-color: white;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 20px;
+	padding-left: 3px;
+	box-shadow: 2px 2px 10px #f2f2f2;
+	margin-bottom: 15px;
+}
+.textebis {
+	text-align: left;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.produitbis {
+	height: 100px;
+	width: 270px;
+	border-radius: 15px 15px 0px 0px;
+	object-fit: cover;
+}
+
+.populairebis {
+	font-weight: bold;
+	margin-top: 25px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
 /*FIN DU MAIN*/
 
 /*FOOTER*/
-.footer
-{display: flex; flex-direction: column; align-items: flex-start; margin-left:20px; margin-top:20px; margin-bottom: 10px;}
-.espacement
-{margin-top:10px; margin-bottom: 5px;}
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.espacement {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
 /*FIN DU FOOTER*/
 
 /*MEDIA QUERIES*/
 
-
 /*POUR TABLETTE*/
-@media screen and (min-width:768px)
-{}
+@media screen and (min-width: 768px) {
+}
 
 /*FIN DES TABLETTES*/
 
-
 /*POUR PC*/
-@media screen and (min-width:992px)
-{}
+@media screen and (min-width: 992px) {
+}
 
 /*FIN DES PC*/
-
-
-
-
-
-
-
-
 
 /*FIN MEDIA QUERIES*/
