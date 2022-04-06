@@ -319,6 +319,11 @@ span {
 
 /*POUR PC*/
 @media screen and (min-width: 992px) {
+.logo {display:flex; justify-content:flex-start; padding-left: 50px}
+
+
+
+
 }
 
 /*FIN DES PC*/
