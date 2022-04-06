@@ -319,18 +319,17 @@ span {
 
 /*POUR PC*/
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
 
-/*HEADER*/
-.logo {display:flex; justify-content:flex-start; padding-left: 50px}
-.bordurebouton:hover {width:auto; height:30px; border-top:3px solid #0065fc; text-decoration:none; color: #0065fc;}
-.posbouton {display: flex; justify-content:flex-end; align-items:center; position:static;}
-.boutondudebut {color:black}
-.bordureboutonbis {width:auto; height:0px; border-bottom:0px solid transparent; text-decoration:none;}
-/*FIN DU HEADER*/
-
-
-}
+    /*HEADER*/
+    .logo {display:flex; justify-content:flex-start; padding-left: 50px}
+    .posbouton {display:flex; justify-content:flex-end; align-items:center; position:static;}
+    .boutondudebut {color:black}
+    
+    /*FIN DU HEADER*/
+    
+    
+    }
 
 /*FIN DES PC*/
 
