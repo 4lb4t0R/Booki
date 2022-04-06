@@ -323,6 +323,7 @@ span {
 
     /*HEADER*/
     .logo {display:flex; justify-content:flex-start; padding-left: 50px}
+	.bordurebouton {display:none;}
     .posbouton {display:flex; justify-content:flex-end; align-items:center; position:static;}
     .boutondudebut {color:black}
     
