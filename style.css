@@ -110,6 +110,9 @@ body {
 .alignement {
 	margin-left: 40px;
 }
+.rechercher {
+	display: none;
+}
 /*LES FILTRES*/
 .ajustement {
 	margin-left: 50px;
@@ -330,7 +333,7 @@ span {
 
     /*HEADER*/
 	.leheader {display: flex; flex-direction: row; justify-content: space-between; margin-left: 40px;}  
-	
+
 	/*LOGO*/
 	.lelogo {width: 95px; height: 45px;	margin-left: 10px; margin-top: 20px; margin-bottom:10px;}
 
@@ -343,7 +346,8 @@ span {
 	.barrederecherche{width:fit-content}
 	.loupe {display: none;}
 	.tailleicone{width: 50px; height:50px;}
-	.bouton{background-color:#0065fc; color:white; font-weight:bold; cursor:pointer; height:50px; width:120px; border-radius:0px 15px 15px 0px;}
+	.bouton {width:150px; height:50px; border-radius:0px 15px 15px 0px;}
+	.rechercher{font-weight: bold; color:white; display:block;}
 	
     /*LES FILTRES*/
 
