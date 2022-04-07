@@ -5,7 +5,7 @@
 }
 html,
 body {
-	font-family: Raleway, "serif", "sans-serif";
+	font-family: 'Raleway', "serif", "sans-serif";
 }
 
 .flexentre {
@@ -26,16 +26,25 @@ body {
 /*FIN FONCTIONS STRUCTURANTES*/
 
 /*HEADER*/
-.logo {
+
+/*LOGO SITE*/
+.leheader{
+	 
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+		   
+}
+
+.lelogo {
+    margin: auto;
+	width: 95px;
+    height: 45px;
 	padding-top: 20px;
 }
-.lelogo {
-	width:100px;
-	height : 50px;
-}
+
+/*NAV*/
 .boutonfixed{
 	padding: 50px 50px 10px 50px;
 	border-bottom: 3px solid #f2f2f2;
@@ -52,11 +61,10 @@ body {
     justify-content: space-around;
     margin-right: 45px;
     margin-left: 45px;
-	
 }
-
+/*TEXTE SOUS HEADER*/
 .grostexte {
-	font-weight: bold;
+	font-weight: bolder;
 	margin-left: 45px;
 	margin-top: 30px;
 }
@@ -64,6 +72,7 @@ body {
 	margin-left: 45px;
 	margin-top: 10px;
 }
+/*BARRE DE RECHERCHE*/
 .barrederecherche {
 	width: 300px;
 	border-radius: 20px;
@@ -101,6 +110,7 @@ body {
 .alignement {
 	margin-left: 40px;
 }
+/*LES FILTRES*/
 .ajustement {
 	margin-left: 50px;
 	margin-top: 15px;
@@ -156,6 +166,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+/*INFOBULLE*/
 .info {
 	color: gray;
 	padding-left: 10px;
@@ -169,13 +180,16 @@ body {
 	
 }
 .bubulle {
-	padding-top: 2px;
-	padding-left: 18px;
-	color: #0065fc;
+	color: #0065FC;
+    border: #F2F2F2 solid 2px;
+    border-radius: 100px;
+    padding: 5px 10px;
 }
 /*FIN DU HEADER*/
 
 /*MAIN*/
+
+/*LES PLUS POPULAIRES*/
 .populaire {
 	font-weight: bold;
 	margin-top: 15px;
@@ -235,6 +249,7 @@ span {
 .etoilegrise {
 	color: gray;
 }
+/*HEBERGEMENTS+ACTIVITES*/
 .vitrinebis {
 	display: flex;
 	flex-direction: column;
@@ -314,14 +329,34 @@ span {
 @media (min-width: 992px) {
 
     /*HEADER*/
-    .logo {display:flex; justify-content:flex-start; padding-left: 50px}
+	.leheader {display: flex; flex-direction: row; justify-content: space-between; margin-left: 40px;}  
 	
-    .posbouton {display:flex; justify-content:flex-end; align-items:center; position:static;}
-    .boutondudebut {color:black}
-    
-    /*FIN DU HEADER*/
-    
-    
+	/*LOGO*/
+	.lelogo {width: 95px; height: 45px;	margin-left: 10px; margin-top: 20px; margin-bottom:10px;}
+
+	/*NAV*/
+    .boutonfixed {padding: 50px 50px 10px 50px; border-bottom: none; text-decoration:none;}
+	.boutonfixed:hover {color: #0065FC; border-top: 3px solid #0065FC; border-bottom:none;}
+	.posbouton {display:flex; flex-direction:row; justify-content: space-around; margin-right: 45px; margin-left: 45px;} 
+
+	/*BARRE DE RECHERCHE*/
+	.barrederecherche{width:fit-content}
+	.loupe {display: none;}
+	.tailleicone{width: 50px; height:50px;}
+	.bouton{background-color:#0065fc; color:white; font-weight:bold; cursor:pointer; height:50px; width:120px; border-radius:0px 15px 15px 0px;}
+	
+    /*LES FILTRES*/
+
+
+	/*LES PLUS POPULAIRES*/
+
+
+	/*HEBERGEMENTS*/
+
+
+	/*ACTIVITES*/
+
+
     }
 
 /*FIN DES PC*/

@@ -9,30 +9,35 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
 		<script	src="https://kit.fontawesome.com/9e75760992.js"	crossorigin="anonymous"></script>
+
 		<title>Booki</title>
 	</head>
 
 	<body>
 		<header>
-			<!--LOGO DU SITE-->
-			<div class="logo">
-				<img class="lelogo" src="img/Booki@3x.png" alt="Logo du site" />
+			<div class="leheader">
+				<!--LOGO DU SITE-->
+				<img class="lelogo" src="img/Booki@3x.png" alt="Logo du site"/>
+
+				<!--BOUTONS DE NAVIGATION-->
+				<nav class="posbouton">
+					<a class="boutonfixed" href="#"> Hébergements </a>
+					<a class="boutonfixed" href="#"> Activités </a>
+				</nav>
 			</div>
-			<!--BOUTONS DE NAVIGATION-->
-		<nav class="posbouton">
-				<a class="boutonfixed" href="#"> Hébergements </a>
-				<a class="boutonfixed" href="#"> Activités </a>
-		</nav>
+		</header>
+
 		<!--TEXTE SOUS HEADER-->
 			<section>
 				<div>
-					<h2 class="grostexte">
+					<h3 class="grostexte">
 						Trouvez votre hébergement pour des vacances de rêve
-					</h2>
+					</h3>
 					<p class="petittexte">
 						En plein centre-ville ou en pleine nature
 					</p>
 				</div>
+
 				<!--BARRE DE RECHERCHE-->
 				<div class="barrederecherche flexcentre alignement">
 					<div class="flexcentre tailleicone">
@@ -46,10 +51,11 @@
 						/>
 					</div>
 					<div class="bouton flexcentre">
-						<i class="fa-solid fa-magnifying-glass"></i>
+						<div class=loupe> <i class="fa-solid fa-magnifying-glass"></i> </div>
 					</div>
 				</div>
 			</section>
+
 			<!--LES FILTRES-->
 			<div class="ajustement">Filtres</div>
 			<div class="naissance">
@@ -82,18 +88,18 @@
 					<h4 class="critere">Animaux autorisés</h4>
 				</div>
 			</div>
+
 			<!--INFOBULLE-->
 			<div class="infobulle">
-				<i class="bubulle fa-solid fa-circle-info"></i>
+				<i class="bubulle fa-solid fa-info infosicon"></i>
 				<p class="info">
 					Plus de 500 logements sont disponibles dans cette ville
 				</p>
 			</div>
-		</header>
 
 		<main>
 			<!--LES PLUS POPULAIRES-->
-			<section class="vitrine">
+			<aside class="vitrine">
 				
 				<div class="yo">
 					<h3 class="populaire">Les plus populaires</h3>
@@ -115,9 +121,6 @@
 						><i class="etoilebleue fa-solid fa-star"></i>
 					</h6>
 				</div>
-				
-					
-				
 				<div class="presentoir posproduit">
 					<img
 						class="produit"
@@ -150,7 +153,8 @@
 						><i class="etoilegrise fa-solid fa-star"></i>
 					</h6>
 				</div>
-			</section>
+			</aside>
+
 			<!--HEBERGEMENTS-->
 			<section class="vitrinebis">
 				<h3 class="populairebis">Hébergements à Marseille</h3>
@@ -254,6 +258,7 @@
 					</h5>
 				</div>
 			</section>
+
 			<!--ACTIVITES-->
 			<section class="vitrinebis">
 				<h3 class="populairebis">Activités à Marseille</h3>
@@ -307,6 +312,7 @@
 				</div>
 			</section>
 		</main>
+
 		<!--FOOTER-->
 		<footer>
 			<section class="vitrinedefin">
