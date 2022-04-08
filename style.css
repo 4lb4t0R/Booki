@@ -426,15 +426,17 @@ span {
 .naissance {display: flex; flex-direction: row; justify-content: space-between; width: 850px; margin-left: 45px; margin-top:20px; margin-bottom:20px;}
 .ajustement {display: none;}
 .ajustementbis {display: flex; align-items: center; font-weight: bold; padding-top:15px}
+
 	/*INFOBULLE*/
 .info {padding-top:8px;}
+
 	/*LES PLUS POPULAIRES*/
-.vitrinepop {margin-left:83%; height:600px; justify-content:space-evenly;}
+.vitrinepop {height:600px; justify-content:space-evenly;}
 
 	/*HEBERGEMENTS*/
-.vitrineheber {flex-direction: row; background-color: #F2F2F2; width:1200px; flex-wrap: wrap; padding-top:25px;position: absolute; left: 350px; top: 900px;}
+.vitrineheber {flex-direction:row; background-color:#F2F2F2; flex-wrap:wrap; padding-top:25px;}
 .presentoir4 {margin-left:265px;}
-
+.desktop {display:flex; flex-direction:row-reverse; align-items:center;}
 
 	/*ACTIVITES*/
 
