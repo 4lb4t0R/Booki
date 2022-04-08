@@ -119,7 +119,9 @@ body {
 	margin-top: 15px;
 	font-weight: bold;
 }
-
+.ajustementbis {
+	display:none
+}
 .naissance {
 	display: inline-flex;
 	flex-direction: row;
@@ -342,7 +344,9 @@ span {
 	.rechercher{font-weight: bold; color:white; display:block;}
 	
     /*LES FILTRES*/
-.naissance {display: flex; flex-direction: row; justify-content: space-between; width: 800px; margin-left: 10%;}
+.naissance {display: flex; flex-direction: row; justify-content: space-between; width: 800px; margin-left: 45px; margin-top:20px; margin-bottom:20px;}
+.ajustement {display: none;}
+.ajustementbis {display: flex; align-items: center; font-weight: bold;}
 
 	/*LES PLUS POPULAIRES*/
 
