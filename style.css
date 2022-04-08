@@ -179,8 +179,9 @@ body {
 .bubulle {
 	color: #0065FC;
     border: #F2F2F2 solid 2px;
-    border-radius: 100px;
+    border-radius: 25px;
     padding: 5px 10px;
+	height: 17px
 }
 /*FIN DU HEADER*/
 
@@ -344,10 +345,11 @@ span {
 	.rechercher{font-weight: bold; color:white; display:block;}
 	
     /*LES FILTRES*/
-.naissance {display: flex; flex-direction: row; justify-content: space-between; width: 800px; margin-left: 45px; margin-top:20px; margin-bottom:20px;}
+.naissance {display: flex; flex-direction: row; justify-content: space-between; width: 850px; margin-left: 45px; margin-top:20px; margin-bottom:20px;}
 .ajustement {display: none;}
-.ajustementbis {display: flex; align-items: center; font-weight: bold;}
-
+.ajustementbis {display: flex; align-items: center; font-weight: bold; padding-top:15px}
+	/*INFOBULLE*/
+.info {padding-top:8px;}
 	/*LES PLUS POPULAIRES*/
 
 
