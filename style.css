@@ -432,8 +432,9 @@ span {
 .vitrinepop {margin-left:83%; height:600px; justify-content:space-evenly;}
 
 	/*HEBERGEMENTS*/
-.vitrineheber {flex-direction: row; background-color: #F2F2F2;}
-.jtaieu {flex-direction: row;}
+.vitrineheber {flex-direction: row; background-color: #F2F2F2; width:1200px; flex-wrap: wrap; padding-top:25px;}
+.presentoir4 {margin-left:265px;}
+
 
 	/*ACTIVITES*/
 
