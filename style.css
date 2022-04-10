@@ -441,8 +441,12 @@ span {
 
 	/*HEBERGEMENTS*/
 .vitrineheber {flex-direction:row; background-color:#F2F2F2; flex-wrap:wrap; padding-top:35px; margin-right:30px; width:1500px; height:565px; justify-content:center;}
-.presentoir4 {margin-left:225px;}
-.presentoir6 {margin-right:200px;}
+.presentoir1 {position:absolute; top:450px; left:30px;}
+.presentoir2 {position:absolute; top:450px; left:30px;}
+.presentoir3 {position:absolute; top:450px; left:30px;}
+.presentoir4 {position:absolute; top:450px; left:30px;}
+.presentoir5 {position:absolute; top:450px; left:30px;}
+.presentoir6 {position:absolute; top:450px; left:30px;}
 .desktop {display:flex; flex-direction:row-reverse; align-items:center;}
 .txtheber {position:absolute; top:450px; left:30px ;}
 
