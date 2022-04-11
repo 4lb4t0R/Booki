@@ -354,6 +354,12 @@ span {
 	padding-top: 10px;
 	padding-left: 15px;
 }
+.affplus {
+	text-align: left;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
 .produitbis {
 	height: 100px;
 	width: 270px;
@@ -410,7 +416,7 @@ span {
 
 @media (min-width: 992px) {
     /*HEADER*/
-	.leheader {display: flex; flex-direction: row; justify-content: space-between; margin-left: 50px;}  
+	.leheader {display: flex; flex-direction: row; justify-content: space-between; margin-left: 30px;}  
 
 	/*LOGO*/
 	.lelogo {width: 95px; height: 55px;	margin-left: 30px; margin-top: 20px; margin-bottom:10px;}
@@ -437,14 +443,20 @@ span {
 .bubulle {margin-left: 10px;}
 
 	/*LES PLUS POPULAIRES*/
-.vitrinepop {height:600px; justify-content:space-evenly; margin-right:30px;}
+.vitrinepop {height:600px; justify-content:space-evenly; margin-right:30px; width:30%; padding-left:40px}
+
 
 	/*HEBERGEMENTS*/
 .vitrineheber {flex-direction:row; background-color:#F2F2F2; flex-wrap:wrap; padding-top:35px; margin-right:30px; width:60%; height:565px; justify-content:space-evenly;
 				position:absolute; top:390px; left:30px; align-items:flex-end;}
+.presentoir3 {margin-right:35px;}
+.presentoir4 {margin-bottom:75px;}
+.presentoir5 {margin-bottom:75px;}
+.presentoir6 {margin-right:35px; margin-bottom:75px;}
 .produitbis {width:200px;}
 .desktop {display:flex; flex-direction:row-reverse; align-items:center;}
-.txtheber {position:absolute; top:50px; left:40px ;}
+.txtheber {position:absolute; top:30px; left:30px ;}
+.affplus {position:absolute; top:550px; left:30px; font-weight: bold; cursor:pointer}
 
 	/*ACTIVITES*/
 
