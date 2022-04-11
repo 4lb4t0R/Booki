@@ -524,12 +524,15 @@ span {
 .affplus {position:absolute; top:550px; left:30px; font-weight: bold; cursor:pointer}
 
 	/*ACTIVITES*/
-.vitrineactiv {display: flex; flex-direction:row; background-color: #f2f2f2; height: auto;	border-radius: 15px; margin-top: 30px; width: auto;}
-.presentoir7 {height:400px; width:250px;}
-.presentoir9 {position:absolute; top:1300px;left:465px}
-.presentoir10 {height:400px; width:250px;}
-.presentoir12 {position:absolute; top:1300px;left:970px}
-.produitgros {height: 350px; width: auto; border-radius: 15px 15px 0px 0px; object-fit: cover;}
+.vitrineactiv {display:flex; flex-direction:row; background-color:transparent; height: auto; border-radius:15px; margin-top:30px; width:auto; padding-top:30px}
+.presentoir7 {height:400px; width:250px; border:none;}
+.presentoir8 {border:none;}
+.presentoir9 {position:absolute; top:1300px;left:455px; border:none;}
+.presentoir10 {height:400px; width:250px; border:none;}
+.presentoir11 {border:none;}
+.presentoir12 {position:absolute; top:1300px;left:1015px; border:none;}
+.produitgros {height: 350px; width: auto; border-radius: 15px 15px 0px 0px; object-fit:cover;}
+.produitvoisin {height:150px; width:270px; border-radius: 15px 15px 0px 0px; object-fit:cover;}
 
 	/*FOOTER*/
 .vitrinedefin {flex-direction: row; justify-content:space-between;padding-right: 300px; padding-left: 40px; padding-top:20px}
