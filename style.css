@@ -23,6 +23,9 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+a {
+	text-decoration: none;
+}
 /*FIN FONCTIONS STRUCTURANTES*/
 
 /*HEADER*/
@@ -266,7 +269,6 @@ span {
 	height: fit-content;
 	width: fit-content;
 	border-radius: 20px;
-	padding-left: 3px;
 	box-shadow: 2px 2px 10px #f2f2f2;
 	margin-bottom: 15px;
 }
@@ -279,7 +281,6 @@ span {
 	height: fit-content;
 	width: fit-content;
 	border-radius: 20px;
-	padding-left: 3px;
 	box-shadow: 2px 2px 10px #f2f2f2;
 	margin-bottom: 15px;
 }
@@ -292,7 +293,6 @@ span {
 	height: fit-content;
 	width: fit-content;
 	border-radius: 20px;
-	padding-left: 3px;
 	box-shadow: 2px 2px 10px #f2f2f2;
 	margin-bottom: 15px;
 }
@@ -305,7 +305,6 @@ span {
 	height: fit-content;
 	width: fit-content;
 	border-radius: 20px;
-	padding-left: 3px;
 	box-shadow: 2px 2px 10px #f2f2f2;
 	margin-bottom: 15px;
 }
@@ -318,7 +317,6 @@ span {
 	height: fit-content;
 	width: fit-content;
 	border-radius: 20px;
-	padding-left: 3px;
 	box-shadow: 2px 2px 10px #f2f2f2;
 	margin-bottom: 15px;
 }
@@ -331,7 +329,6 @@ span {
 	height: fit-content;
 	width: fit-content;
 	border-radius: 20px;
-	padding-left: 3px;
 	box-shadow: 2px 2px 10px #f2f2f2;
 	margin-bottom: 15px;
 }
@@ -516,6 +513,7 @@ span {
 
 	/*LES PLUS POPULAIRES*/
 .vitrinepop {height:600px; justify-content:space-evenly; margin-right:30px; width:30%; padding-left:40px}
+.texte {font-size:small}
 
 	/*HEBERGEMENTS*/
 .vitrineheber {flex-direction:row; background-color:#F2F2F2; flex-wrap:wrap; padding-top:35px; margin-right:30px; width:60%; height:565px; justify-content:space-evenly;
@@ -526,8 +524,9 @@ span {
 .presentoir6 {margin-right:35px; margin-bottom:75px;}
 .produitbis {width:200px;}
 .desktop {display:flex; flex-direction:row-reverse; align-items:center;}
-.txtheber {position:absolute; top:30px; left:30px ;}
+.txtheber {position:absolute; top:5px; left:30px ;}
 .affplus {position:absolute; top:550px; left:30px; font-weight: bold; cursor:pointer}
+.textebis {font-size:small;}
 
 	/*ACTIVITES*/
 .vitrineactiv {display:flex; flex-direction:row; background-color:transparent; height: auto; border-radius:15px; margin-top:30px; width:auto; padding-top:30px; padding-left:70px;}
