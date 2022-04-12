@@ -196,6 +196,7 @@ a {
 	font-weight: bold;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-right:100px;
 }
 .vitrinepop {
 	display: flex;
@@ -205,6 +206,7 @@ a {
 	border-radius: 15px;
 	margin-top: 30px;
 	width: auto;
+	align-items: center;
 }
 .yo {
 	display: flex;
@@ -238,6 +240,7 @@ a {
 	margin-left: 20px;
 	margin-bottom: 10px;
 	padding-top: 20px;
+	font-size:small
 }
 span {
 	font-weight: lighter;
@@ -251,7 +254,9 @@ span {
 .etoilegrise {
 	color: gray;
 }
+
 /*HEBERGEMENTS*/
+
 .vitrineheber {
 	display: flex;
 	flex-direction: column;
@@ -260,6 +265,7 @@ span {
 	border-radius: 15px;
 	margin-top: 30px;
 	width: auto;
+	align-items: center;
 }
 .presentoir1 {
 	display: flex;
@@ -338,6 +344,7 @@ span {
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 15px;
+	font-size:small
 }
 .affplus {
 	text-align: left;
@@ -346,8 +353,8 @@ span {
 	padding-left: 15px;
 }
 .produitbis {
-	height: 100px;
-	width: 270px;
+	height: 130px;
+	width: 320px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
@@ -363,11 +370,12 @@ span {
 	margin-top: 25px;
 	padding-left: 20px;
 	margin-bottom: 15px;
+	margin-right:100px
 }
 /*ACTIVITES*/
 
 .vitrineactiv {
-	display:flex; flex-direction:column; background-color:transparent; height:auto; border-radius:15px; margin-top:30px; width:auto; padding-top:30px; justify-content:center;
+	display:flex; flex-direction:column; background-color:transparent; height:auto; border-radius:15px; margin-top:30px; width:auto; padding-top:30px; justify-content:center; align-items: center;
 }
 .txtactiv {
 	font-weight: bold;
@@ -454,14 +462,14 @@ span {
 	margin-bottom: 15px;
 }
 .produitgros {
-	height: 100px;
-	width: 270px;
+	height: 130px;
+	width: 320px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
 .produitvoisin {
-	height: 100px;
-	width: 270px;
+	height: 130px;
+	width: 320px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
