@@ -543,7 +543,7 @@ span {
 
 	/*HEBERGEMENTS*/
 .vitrineheber {display:flex; background-color:#F2F2F2; flex-wrap:wrap; padding-top:35px; margin-right:30px; width:60%; height:565px; justify-content:space-evenly;
-				position:absolute; top:390px; left:30px; align-items:flex-end; flex-direction:row;}
+				position:absolute; top:390px; left:30px; align-items:flex-end; flex-direction:row; align-content: space-around;}
 .presentoir1:hover {box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);}
 .presentoir2:hover {box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);}
 .presentoir3:hover {box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);}
@@ -552,11 +552,13 @@ span {
 .presentoir6:hover {box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);}
 .produitbis {width:200px;}
 .desktop {display:flex; flex-direction:row-reverse; align-items:center;}
-.txtheber {position:absolute; top:5px; left:30px;}
-.affplus {position:absolute; top:560px; left:30px; font-weight: bold; cursor:pointer}
+.txtheber {margin-right:400px}
+.affplus {font-weight: bold; cursor:pointer; position:absolute; top:564px ; left:30px}
 .textebis {font-size:small;}
 .test {display: flex; flex-direction: row;}
-.presentoir6 {margin-bottom:45px;}
+.presentoir6 {margin-bottom:65px;}
+.presentoir4 {margin-left:35px;}
+
 
 	/*ACTIVITES*/
 .vitrineactiv {display:flex; flex-direction:row; background-color:transparent; height: auto; border-radius:15px; margin-top:30px; width:auto; padding-top:30px; padding-left:70px; margin-right:90px;}
