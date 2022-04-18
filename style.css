@@ -552,7 +552,7 @@ span {
 .presentoir5:hover {box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);}
 .presentoir6:hover {box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);}
 .produitbis {width:200px;}
-.desktop {display:flex; flex-direction:row-reverse; align-items:center;}
+.populaire_et_hbrgmt {display:flex; flex-direction:row-reverse; align-items:center;}
 .txtheber {margin-right:400px}
 .affplus {font-weight: bold; cursor:pointer; position:absolute; top:564px ; left:30px}
 .textebis {font-size:small;}
