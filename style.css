@@ -532,6 +532,7 @@ span {
 .naissance {display: flex; flex-direction: row; justify-content: space-between; width: 850px; margin-left: 35px; margin-top:20px; margin-bottom:20px;}
 .ajustement {display: none;}
 .ajustementbis {display: flex; align-items: center; font-weight: bold; padding-top:15px}
+.bordurefiltre:hover {box-shadow:  1px 4px 16px  0 #0065FC}
 
 	/*INFOBULLE*/
 .info {padding-top:8px; margin-left:5px;}
